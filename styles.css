@@ -42,6 +42,14 @@ body{
     border: none;
     border-radius: 10px;
     cursor: pointer;
+    transition: all 0.4s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+.button:hover{
+    background-color: #000;
+    color: #ddd;
+    transform: translateY(-3px);
+
+
 }
 .Columnas-3 {
     display: flex;
@@ -68,7 +76,7 @@ body{
 .navbar .item:hover {
     background-color: #9e6262;
     color: #000;
-    transition: background-color 0.9s ease;
+    transition: background-color 1s ease;
 }
 .cubo{
     background: #0f0e0e;
@@ -78,5 +86,5 @@ body{
 .cubo:hover{
     background-color: aqua;
     color: #000;
-    transition: background-color 0.9s ease;
+    transition: background-color 1s ease;
 }
