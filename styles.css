@@ -1,0 +1,82 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+    background: #9e6262;
+    color: aliceblue;
+}
+.practica1 {
+    background: #ecff5c ;
+    color: #000;
+    border: 2px solid #b90a0a;
+    padding: 5px; 
+}
+.Tarjeta {
+    padding: 20px;
+    width: 300px;
+    background: white;
+    color: #000;
+    border-radius: 20px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    
+}
+.Tarjeta img{
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+.Tarjeta .information{
+    padding: 15px;
+}
+.Tarjeta .description{
+    color: #0f0e0e;
+    font-size: 10px;
+}
+.button{
+    background: #b90a0a;
+    width: 100%;
+    padding: 7px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.Columnas-3 {
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+}
+.Columna{
+    flex: 1;
+    background: #b90a0a;
+    padding: 18px;
+    border: 1px solid #ddd;
+}
+.navbar{
+    background-color: #000;
+    overflow: hidden;
+}
+.navbar .item{
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 10px 14px;
+    text-decoration: none;
+}
+.navbar .item:hover {
+    background-color: #9e6262;
+    color: #000;
+    transition: background-color 0.9s ease;
+}
+.cubo{
+    background: #0f0e0e;
+    padding: 70px;
+    text-align: center;
+}
+.cubo:hover{
+    background-color: aqua;
+    color: #000;
+    transition: background-color 0.9s ease;
+}
